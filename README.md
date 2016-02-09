@@ -10,7 +10,7 @@ Bootstrap Calendar for Qlikview gives you the following options:
 2. Text for control
 3. Min Date
 4. Max Date
-5. 
+
 ![Main](/images/control.PNG)
 
 
