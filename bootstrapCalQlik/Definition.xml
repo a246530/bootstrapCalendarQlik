@@ -4,5 +4,8 @@
                   Description="bootstrapCalQlik will make a date picker for qlikview" 
                   Type="object">
 <Text Label="VariableName" Type="text" Initial="" Expression=""/>
+<Text Label="Text" Type="text" Initial="" Expression=""/>
+<Text Label="Min Date" Type="text" Initial="" Expression=""/>
+<Text Label="Max Date" Type="text" Initial="" Expression=""/>
 <Initiate Name="Layout.Border.Use" Value="0" />
 </ExtensionObject>
