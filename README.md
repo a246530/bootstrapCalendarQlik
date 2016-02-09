@@ -4,6 +4,7 @@ Botstrap Calendar for Qlikview is a port of the https://bootstrap-datepicker.rea
 
 ##Attributes
 Bootstrap Calendar for Qlikview gives you the following options:
+
 1. Variable to hold date
 2. Text for control
 3. Min Date
