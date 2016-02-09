@@ -1,6 +1,7 @@
 # bootstrapCalendarQlik
 ####Bootstrap based calendar object for qlikview
 Botstrap Calendar for Qlikview is a port of the https://bootstrap-datepicker.readthedocs.org/en/latest/ . This datepicker replaces the current Qlikview date picker which is subpar at best. 
+![Main](/images/main.PNG)
 
 ##Attributes
 Bootstrap Calendar for Qlikview gives you the following options:
@@ -9,7 +10,8 @@ Bootstrap Calendar for Qlikview gives you the following options:
 2. Text for control
 3. Min Date
 4. Max Date
-
+5. 
+![Main](/images/control.PNG)
 
 
 
