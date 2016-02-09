@@ -1,9 +1,6 @@
 # bootstrapCalendarQlik
 ####Bootstrap based calendar object for qlikview
 
-##This extension will screw the css for the default qlikview control. If you use this you will only be able to use this for datepicking.
-Botstrap Calendar for Qlikview is a port of the https://bootstrap-datepicker.readthedocs.org/en/latest/ . This datepicker replaces the current Qlikview date picker which is subpar at best. 
-
 
 ##Attributes
 Bootstrap Calendar for Qlikview gives you the following options:
@@ -23,3 +20,5 @@ Customize and you are done!
 
 #####You may need to change the qva.loadcss to the commented out one when working with the extension on access point*
 
+##This extension will screw the css for the default qlikview control. If you use this you will only be able to use this for datepicking.
+Botstrap Calendar for Qlikview is a port of the https://bootstrap-datepicker.readthedocs.org/en/latest/ . This datepicker replaces the current Qlikview date picker which is subpar at best. 
