@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExtensionObject  Path="bootstrapCalQlik" 
+                  Label="bootstrapCalQlik" 
+                  Description="bootstrapCalQlik will make a date picker for qlikview" 
+                  Type="object">
+<Text Label="VariableName" Type="text" Initial="" Expression=""/>
+<Initiate Name="Layout.Border.Use" Value="0" />
+</ExtensionObject>
