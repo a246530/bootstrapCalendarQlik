@@ -23,5 +23,5 @@ Customize and you are done!
 
 #####You may need to change the qva.loadcss to the commented out one when working with the extension on access point*
 
-##This extension will screw the css for the default qlikview control. If you use this you will only be able to use this for datepicking.
+##This extension will mess up the css for the default qlikview control. If you use this you will only be able to use this for datepicking.
 
