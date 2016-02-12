@@ -3,7 +3,7 @@ Qva.LoadCSS(template_path + "bootstrap-datepicker3.standalone.min.css");
 Qva.LoadScript(template_path + "bootstrap-datepicker.min.js");
 Qva.LoadCSS('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
 Qva.LoadScript('https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js');
-		
+Qva.LoadCSS(template_path + "override.css");
 Qv.AddExtension("bootstrapCalQlik",
         function () {
 
