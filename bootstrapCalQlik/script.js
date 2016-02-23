@@ -1,7 +1,6 @@
 var template_path = Qva.Remote + "?public=only&name=Extensions/bootstrapCalQlik/";
 Qva.LoadCSS(template_path + "bootstrap-datepicker3.standalone.min.css");
 Qva.LoadScript(template_path + "bootstrap-datepicker.min.js");
-Qva.LoadCSS('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
 Qva.LoadScript('https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js');
 Qva.LoadCSS(template_path + "override.css");
 Qv.AddExtension("bootstrapCalQlik",
@@ -62,9 +61,10 @@ Qv.AddExtension("bootstrapCalQlik",
 		
 		//Render Extension view
 		function RenderExtension() {
-			html="";
-			html+='<h4 style="padding-left:6px;">'+_this.bootstrapCalQlik.Heading+'</h4>';
+			html="<div class='bootstrap_inside'";
+			html+='<h4 style="padding-left:6px;padding-top:10px;">'+_this.bootstrapCalQlik.Heading+'</h4>';
 			html+='<div class="input-group date datepick" style="padding-left:6px;padding-right:6px;" id="'+GetUniqueId()+'"><input id="input_'+GetUniqueId()+'" type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span></div>';
+			html+="<div>";
 			_this.Element.innerHTML=html;
 			$('#'+GetUniqueId()).datepicker({
 				startDate: _this.bootstrapCalQlik.minDate,
