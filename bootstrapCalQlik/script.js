@@ -61,10 +61,10 @@ Qv.AddExtension("bootstrapCalQlik",
 		
 		//Render Extension view
 		function RenderExtension() {
-			html="<div class='bootstrap_inside'";
+			html="<div class='bootstrap_inside'>";
 			html+='<h4 style="padding-left:6px;padding-top:10px;">'+_this.bootstrapCalQlik.Heading+'</h4>';
 			html+='<div class="input-group date datepick" style="padding-left:6px;padding-right:6px;" id="'+GetUniqueId()+'"><input id="input_'+GetUniqueId()+'" type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span></div>';
-			html+="<div>";
+			html+="</div>";
 			_this.Element.innerHTML=html;
 			$('#'+GetUniqueId()).datepicker({
 				startDate: _this.bootstrapCalQlik.minDate,
