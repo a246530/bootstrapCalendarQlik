@@ -61,7 +61,7 @@ Qv.AddExtension("bootstrapCalQlik",
 		
 		//Render Extension view
 		function RenderExtension() {
-			html="<div class='bootstrap_inside'>";
+			var html="<div class='bootstrap_inside'>";
 			html+='<h4 style="padding-left:6px;padding-top:10px;">'+_this.bootstrapCalQlik.Heading+'</h4>';
 			html+='<div class="input-group date datepick" style="padding-left:6px;padding-right:6px;" id="'+GetUniqueId()+'"><input id="input_'+GetUniqueId()+'" type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span></div>';
 			html+="</div>";
